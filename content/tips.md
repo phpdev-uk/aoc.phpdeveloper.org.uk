@@ -21,8 +21,12 @@ By all means go back and optimise your solution once it works, but don't get hun
 
 The test input provided each day is a great way to quickly test whether you are on the right lines. It won't tell you if your solution is optimised - your individual puzzle input is usually substantially larger than the test input - but you will get an indication of whether your algorithms are correct.
 
-I used to jump straight to trying to solve the problem for my individual input, and I often came unstuck. Problems became much easier once I started from the test input, and in most cases the code would work with my individual input without any changes. Occasionally however the test input did not include all the edge cases.
+I used to jump straight to trying to solve the problem for my individual input, and I often came unstuck. Problems became much easier once I started from the test input, and in most cases the code would work with my individual input without any changes. Occasionally however the test input does not include all the edge cases, and you may find that you have a solution that works on one input but not the other.
 
 ## Build data structures
 
 The first step in every exercise is usually to read data in from a file and then convert it into a data structure. Concentrate on getting this done first, as once you have the data in a structure it can be manipulated for the rest of the challenge.
+
+## Think about data dependencies
+
+If each line of data is independent from the others, you can read in the input file one line at a time and process it immediately. In these cases you might not even need to build a data structure if, for example, you are just counting lines matching certain criteria (this is common in early challenges).
