@@ -7,9 +7,9 @@ type: "page"
 
 Advent of Code problems can seem daunting at first, especially if you're using a new language to solve them. They also get progressively harder as the month goes on.
 
-## Premature optimisation is bad
+## Premature optimisation is a bad idea
 
-This is a general rule in programming, and it applies here. Unless you are playing Code Golf, don't try and come up with an optimised solution (e.g. in terms of source code length) on your first attempt. Bear in mind that:
+This is a general rule in programming, and it applies here. Unless you are playing [Code Golf](https://en.wikipedia.org/wiki/Code_golf), don't try and come up with an optimised solution (e.g. in terms of source code length) on your first attempt. Bear in mind that:
 
  1. If the solution takes a couple of minutes to run, you are the only person inconvenienced by this.
  1. You have the full resources of your development machine to throw at the problem - as opposed to a shared environment such as a server where you have to consider other users and systems.
