@@ -5,9 +5,7 @@ draft: false
 type: "page"
 ---
 
-<!-- TODO: Link languages to the relevant tag -->
-
-[Advent of Code](https://adventofcode.com) solutions, in C (2017, 2018), Python (2018), PHP (2015, 2019, 2020) and Go (2021, 2022). I am solving these problems for fun and, with the exception of PHP, to (re)learn languages that I don't use commercially, but would like to.
+[Advent of Code](https://adventofcode.com) solutions, in C (2017, 2018), Python (2018), [PHP](/tags/php) (2015, 2019, 2020) and [Go](/tags/go) (2021, 2022). I am solving these problems for fun and, with the exception of PHP, to (re)learn languages that I don't use commercially, but would like to.
 
 These are not necessarily the most efficient, elegant or robust solutions. For example, I have not always freed memory allocated on the heap, partly because these solutions run for a very short period of time - seconds in most cases - and the kernel will reclaim any memory allocated to a process when the process terminates anyway.
 
